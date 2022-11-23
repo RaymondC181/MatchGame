@@ -1,0 +1,15 @@
+.intro
+{
+    text-align: center;
+}
+
+.grid_container>img{
+    height: 200px;
+}
+
+.grid_container{
+    display: grid;
+    grid-template-columns: repeat(4,200px);
+    grid-template-rows: repeat(4,210px);
+    margin-left: 590px;
+}
